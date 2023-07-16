@@ -10,3 +10,6 @@ vercel:
 setup:
 	make edit
 	make vercel
+
+start:
+	vercel dev --listen 8000
