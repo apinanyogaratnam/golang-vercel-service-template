@@ -15,3 +15,6 @@ setup:
 
 start:
 	vercel dev --listen 8000
+
+format:
+	go fmt ./...
