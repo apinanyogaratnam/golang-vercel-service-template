@@ -11,15 +11,15 @@ A template of a golang service that can be deployed to Vercel.
 
 ## Installation
 
+### Prerequisites:
+- You will need to have the [vercel cli](https://vercel.com/download) installed.
+
 Download to your project directory, update the repo name in the [Makefile](./Makefile), then run:
 
 ```sh
 make setup # setup vercel
 make start # start the dev server
 ```
-
-### Notes:
-- You will need to have the [vercel cli](https://vercel.com/download) installed.
 
 ## Usage
 
