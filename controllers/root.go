@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/apinanyogaratnam/golang-vercel-service-template/api/models"
+	"github.com/apinanyogaratnam/golang-vercel-service-template/models"
 )
 
 func Root(w http.ResponseWriter, r *http.Request) {

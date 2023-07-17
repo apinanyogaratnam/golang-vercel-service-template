@@ -11,7 +11,7 @@ import (
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/mem"
 
-	"github.com/apinanyogaratnam/golang-vercel-service-template/api/models"
+	"github.com/apinanyogaratnam/golang-vercel-service-template/models"
 )
 
 func TestHttp() error {
