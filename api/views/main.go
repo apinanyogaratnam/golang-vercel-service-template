@@ -10,4 +10,5 @@ func View() {
 	server := http.NewServeMux()
 
 	server.HandleFunc("/", controllers.Root)
+	server.HandleFunc("/health", controllers.Health)
 }
