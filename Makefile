@@ -10,7 +10,6 @@ vercel:
 
 setup:
 	make edit
-	make edit-imports
 	make vercel
 
 start:
