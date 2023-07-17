@@ -3,7 +3,7 @@ package views
 import (
 	"net/http"
 
-	"github.com/apinanyogaratnam/golang-vercel-service-template/api/controllers"
+	"github.com/apinanyogaratnam/golang-vercel-service-template/controllers"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
