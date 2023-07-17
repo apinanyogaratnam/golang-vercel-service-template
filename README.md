@@ -1,6 +1,6 @@
-# README Boilerplate
+# Golang Vercel Service Template
 
-A template of README best practices to make your README simple to understand and easy to use.
+A template of a golang service that can be deployed to Vercel.
 
 ## Table of Contents
 
@@ -11,13 +11,15 @@ A template of README best practices to make your README simple to understand and
 
 ## Installation
 
-Download to your project directory, add `README.md`, and commit:
+Download to your project directory, update the repo name in the [Makefile](./Makefile), then run:
 
 ```sh
-curl -LO http://git.io/Xy0Chg
-git add README.md
-git commit -m "Use README Boilerplate"
+make setup # setup vercel
+make start
 ```
+
+### Notes:
+- You will need to have the [vercel cli](https://vercel.com/download) installed.
 
 ## Usage
 
@@ -29,14 +31,14 @@ Replace the contents of `README.md` with your project's:
 - Usage instructions
 - Support instructions
 - Contributing instructions
-- Licence
+- License
 
 Feel free to remove any sections that aren't applicable to your project.
 
 ## Support
 
-Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new) for support.
+Please [open an issue](https://github.com/apinanyogaratnam/golang-vercel-service-template/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/apinanyogaratnam/golang-vercel-service-template/compare/).
