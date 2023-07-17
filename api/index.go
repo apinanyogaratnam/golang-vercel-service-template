@@ -7,5 +7,5 @@ import (
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
-	views.View(w, r)
+	views.Handler(w, r)
 }
