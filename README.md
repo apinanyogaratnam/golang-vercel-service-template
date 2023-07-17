@@ -15,7 +15,7 @@ Download to your project directory, update the repo name in the [Makefile](./Mak
 
 ```sh
 make setup # setup vercel
-make start
+make start # start the dev server
 ```
 
 ### Notes:
